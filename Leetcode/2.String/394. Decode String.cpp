@@ -4,7 +4,6 @@ public:
     string decoded_string(string s,int& index){
         string result;
         
-        
         while(index<s.length() && s[index]!=']'){
          
           
@@ -20,14 +19,12 @@ public:
                 
                 index++;
                 
-
                 string r = decoded_string(s,index);
                 
                 while(k-- > 0){
                     result+=r;
                 }
                 
-                 
                 index++;
                 
             }
@@ -40,8 +37,6 @@ public:
         
         
     }
-    
-    
     
     string decodeString(string s) {
         int index=0;

@@ -40,7 +40,7 @@ int lastOccurrence(vector<int> &arr, int size, int key)
 
 pair<int, int> findFirstLastPosition(vector<int> &arr, int n, int x)
 {
-    // Write your code here.
+
     pair<int, int> p;
     
     p.first = firstOccurrence(arr, n, x);

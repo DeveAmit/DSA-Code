@@ -1,7 +1,7 @@
 int longestMountain(int *arr, int n)
 
 {
-
+ 
    if(n < 3)
 
    {

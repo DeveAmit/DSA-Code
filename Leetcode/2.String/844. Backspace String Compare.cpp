@@ -14,7 +14,7 @@ public:
          for(int i = 0; i < t.size(); i++)
 		 {                 
                  if(t[i] == '#' && !s2.empty())     
-                         s2.pop();                 
+                         s2.pop();                        
                  else if(t[i] != '#')
                          s2.push(t[i]);
          }
